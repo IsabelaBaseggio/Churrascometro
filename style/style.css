@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#background{
+    max-width: 1000px;
+    background-image:url(./images/brasa.jpg);
+    background-size: cover;
+    margin: auto;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.container{
+    padding: 20px;
+    background-color: #ee9b00BB;
+    max-width:350px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    color: #bb3e03;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+input, button{
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+    padding: 10px;
+    border: none;  
+}
+
+button[type="submit"]{
+    color: white;
+    background-color: #bb3e03;
+}
