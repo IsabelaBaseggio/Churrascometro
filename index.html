@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,18 +11,31 @@
     <link rel="stylesheet" href="./style/style.css">
 
     <title>Document</title>
-    
+
 </head>
+
 <body>
 
-    <h1>Churrascômetro</h1>
+    <div id="background">
 
-    <form action="" method="post">
-        <input type="number" name="adulto">
-        <input type="number" name="crianca">
-        <input type="number" name="hora">
-        <button type="submit">Calcular</button>
-    </form>
-    
+        <main class="container">
+
+            <h1>Churrascômetro</h1>
+
+
+            <input id="adultos" type="number" name="adultos" placeholder="Adultos">
+            <!-- placeholder é que aparece escrito dentro da caixa -->
+            <input id="criancas" type="number" name="criancas" placeholder="Crianças">
+            <input id="duracao" type="number" name="duracao" placeholder="Duração (horas)">
+            <button type="submit">Calcular</button>
+
+            <div id="resultado">
+
+            </div>
+        </main>
+
+    </div>
+
 </body>
+
 </html>
