@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="./script/script.js"></script>
-
     <link rel="stylesheet" href="./style/style.css">
 
     <title>Document</title>
@@ -15,6 +13,8 @@
 </head>
 
 <body>
+
+    <div class="borda"></div>
 
     <div id="background">
 
@@ -26,8 +26,8 @@
             <input id="adultos" type="number" name="adultos" placeholder="Adultos">
             <!-- placeholder é que aparece escrito dentro da caixa -->
             <input id="criancas" type="number" name="criancas" placeholder="Crianças">
-            <input id="duracao" type="number" name="duracao" placeholder="Duração (horas)">
-            <button type="submit">Calcular</button>
+            <input id="duracao" type="number" name="duracao" placeholder="Duração (h)">
+            <button onclick="calcular()">Calcular</button>
 
             <div id="resultado">
 
@@ -36,6 +36,9 @@
 
     </div>
 
+    <div class="borda"></div>
+
+    <script src="./script/script.js"></script>
 </body>
 
 </html>

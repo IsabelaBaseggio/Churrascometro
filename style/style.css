@@ -32,15 +32,28 @@ h1{
     margin-bottom: 15px;
 }
 
+input{
+    width: 100%;
+}
+
 input, button{
     margin: auto;
     margin-bottom: 10px;
     display: block;
     padding: 10px;
-    border: none;  
+    border: none;
+    box-sizing: border-box;
 }
 
-button[type="submit"]{
+button{
+    width: 50%;
     color: white;
     background-color: #bb3e03;
+}
+
+.borda{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ee9b00;
+    padding-top: 36.5px;
 }
